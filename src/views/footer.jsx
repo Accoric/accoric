@@ -118,9 +118,18 @@ function Footer({openPopup}) {
             <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
               <div class="terms-wrap">
                 <p>
-                  <a asp-controller="Home" asp-action="PrivacyPolicy">
+
+                  <a  href="/terms-of-service">
+                    Terms of Service
+                  </a> &nbsp;&nbsp;|&nbsp;&nbsp; 
+                  
+                  <a  href="/privacy-policy">
                     Privacy Policy
-                  </a>
+                  </a>  
+
+                  {/* <a asp-controller="Home" asp-action="PrivacyPolicy">
+                    Privacy Policy
+                  </a> */}
                 </p>
               </div>
             </div>
