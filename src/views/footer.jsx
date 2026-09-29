@@ -5,7 +5,7 @@ import logoLinkedin from "../assets/images/logo-linkedin.svg";
 import logoInstagram from "../assets/images/logo-instagram.svg";
 import footerText from "../assets/images/footer-text.svg";
 
-function Footer({openPopup}) {
+function Footer({ openPopup }) {
   return (
     <>
       <footer class="main-footer">
@@ -20,10 +20,11 @@ function Footer({openPopup}) {
 
             <div class="col-lg-4 col-md-4">
               <div class="btns-wrp pull-right">
-                <button type="button" class="btn btn-outline-primary"
-                 onClick={openPopup}
+                <button
+                  type="button"
+                  class="btn btn-outline-primary"
+                  onClick={openPopup}
                 >
-
                   <span>
                     Request a conversation{" "}
                     <img src={arrowImage} alt="arrow"></img>
@@ -62,14 +63,10 @@ function Footer({openPopup}) {
               <h3 class="fmenu-heading">quick links</h3>
               <ul class="fmenu">
                 <li>
-                  <a href="/">
-                    Home
-                  </a>
+                  <a href="/">Home</a>
                 </li>
                 <li>
-                  <a  href="/accoric-management">
-                    Accoric Management
-                  </a>
+                  <a href="/accoric-management">Accoric Management</a>
                 </li>
                 <li>
                   <a href="/about-us">About us</a>
@@ -100,8 +97,8 @@ function Footer({openPopup}) {
               <p>+1 516-200-4720</p>
               <p>Email us</p>
               <p>
-                <a href="mailto:sales@accoric.com">
-                  <strong>sales@accoric.com</strong>
+                <a href="mailto:service@accoric.com">
+                  <strong>service@accoric.com</strong>
                 </a>
               </p>
               <p>Location</p>
@@ -118,15 +115,9 @@ function Footer({openPopup}) {
             <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
               <div class="terms-wrap">
                 <p>
-
-                  <a  href="/terms-of-service">
-                    Terms of Service
-                  </a> &nbsp;&nbsp;|&nbsp;&nbsp; 
-                  
-                  <a  href="/privacy-policy">
-                    Privacy Policy
-                  </a>  
-
+                  <a href="/terms-of-service">Terms of Service</a>{" "}
+                  &nbsp;&nbsp;|&nbsp;&nbsp;
+                  <a href="/privacy-policy">Privacy Policy</a>
                   {/* <a asp-controller="Home" asp-action="PrivacyPolicy">
                     Privacy Policy
                   </a> */}
